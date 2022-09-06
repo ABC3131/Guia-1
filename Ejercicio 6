@@ -1,0 +1,12 @@
+Ejercicio 6
+ Escribir un programa que pregunte un nombre de usuario, y que después muestre por pantalla si su cantidad de letras es par o impar.
+
+nombre=input('ingrese el nombre: ')
+suma=0
+for j in nombre:
+    suma+=1
+print("en nombre", nombre, "tiene ", suma, "letras")
+if suma%2==0:
+    print("Es par")
+else:
+    print("es impar")
