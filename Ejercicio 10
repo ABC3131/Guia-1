@@ -1,0 +1,9 @@
+Ejercicio 10
+Crear un conversor de dólares a pesos y pesos a dólares, donde se ingrese por teclado el valor del peso actual.
+
+dolar=140
+num= int(input("Ingrese la cantidad en pesos que desea convertir en dolares: "))
+ussd=num/dolar
+print (num, "pesos equivale a ", ussd, "dolares")
+peso=num*dolar
+print(num, "dolares equivale a ", peso, "pesos")
