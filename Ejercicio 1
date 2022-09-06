@@ -1,0 +1,7 @@
+Ejercicio 1
+División con resto Plantear un algoritmo que permita informar, para dos valores a y b el resultado de la división a/b y el resto de esa división.
+
+
+a= int(input("Ingrese el primer valor: "))
+b= int(input("Ingrese el segundo valor: "))
+print("el resultado es : ", a/b, "y el resto es: ", a%b)
