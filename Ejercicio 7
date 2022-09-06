@@ -1,0 +1,13 @@
+Ejercicio 7
+Ingresar la cantidad de números de la sucesión de Fibonacci a mostrar.
+num=int(input("Ingrese un numero: "))
+n1=0
+n2=1
+suma=0
+contador=1
+while(contador<=num):    
+  print(suma)
+  contador+=1
+  n1=n2
+  n2=suma
+  suma=n1+n2
