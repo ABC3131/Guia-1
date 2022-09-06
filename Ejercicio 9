@@ -1,0 +1,7 @@
+Ejercicio 9 
+Escribir un programa que pida dos números y muestre como resultado su división, cociente y resto.
+n1= int(input("Ingrese el primer valor: "))
+n2= int(input("Ingrese el segundo valor: "))
+print("El resultado es: ",n1/n2)
+print("El resto  es: ",n1%n2)
+print("El cociente es: ",n1//2)
